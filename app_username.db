@@ -1,0 +1,13 @@
+--
+-- Файл сгенерирован с помощью SQLiteStudio v3.4.4 в Пн ноя 27 22:27:27 2023
+--
+-- Использованная кодировка текста: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Таблица: userdata
+CREATE TABLE IF NOT EXISTS userdata (id INTEGER PRIMARY KEY AUTOINCREMENT, login TEXT, password TEXT, name TEXT);
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
